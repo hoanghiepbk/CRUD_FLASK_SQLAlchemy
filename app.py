@@ -13,7 +13,7 @@ import os
 app = Flask(__name__)
 
 
-app.config['SECRET_KEY'] = 'thuctappythonvccloud'
+app.config['SECRET_KEY'] = 'toan-hiep-thuctappythonvccloud'
 
 db_path = os.path.join(os.path.dirname(__file__), 'database.db')
 
